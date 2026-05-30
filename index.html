@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI Product Design Lead portfolio template for product design leadership, AI UX, enterprise systems, design systems, and team management."
+    />
+    <title>AI Design Lead Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Back to top">
+          <span class="brand-mark">AD</span>
+          <span>
+            <strong data-i18n="brandName">Alex Design</strong>
+            <small data-i18n="brandRole">AI 设计主管作品集</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links" aria-label="Section navigation">
+          <a href="#work" data-i18n="navWork">作品</a>
+          <a href="#leadership" data-i18n="navLeadership">领导力</a>
+          <a href="#experience" data-i18n="navExperience">经历</a>
+          <a href="#process" data-i18n="navProcess">方法</a>
+          <a href="#contact" data-i18n="navContact">联系</a>
+        </nav>
+
+        <button class="language-toggle" type="button" aria-label="Switch language" data-lang-toggle>
+          EN
+        </button>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow">AI Product Design Lead / Design Manager</p>
+            <h1 id="hero-title" data-i18n="heroTitle">把 AI 能力转译成可信、可用、可规模化的产品体验。</h1>
+            <p class="hero-text" data-i18n="heroText">
+              这是一个面向互联网 AI 设计主管岗位的作品集模板，突出产品策略、复杂体验、设计系统和团队管理能力。
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work" data-i18n="heroPrimary">查看精选项目</a>
+              <a class="button secondary" href="#leadership" data-i18n="heroSecondary">查看管理能力</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Portfolio dashboard">
+            <div class="signal-card profile-card">
+              <div>
+                <span class="status-dot"></span>
+                <span data-i18n="profileStatus">开放 AI 设计主管机会</span>
+              </div>
+              <strong data-i18n="profileName">Alex Chen</strong>
+              <p data-i18n="profileSummary">12 年产品设计经验，6 年设计团队管理经验，主导 AI、B端 SaaS、C端增长与设计系统。</p>
+            </div>
+
+            <div class="hero-metrics" id="heroMetrics" aria-label="Career metrics"></div>
+
+            <div class="radar-card" aria-label="Capability radar">
+              <div class="radar-visual">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <p class="card-label" data-i18n="radarLabel">能力组合</p>
+                <h2 data-i18n="radarTitle">Strategy + AI UX + Leadership</h2>
+                <p data-i18n="radarText">从机会识别到跨团队落地，兼顾体验质量、业务结果和团队成长。</p>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="workEyebrow">Featured Work</p>
+            <h2 id="work-title" data-i18n="workTitle">精选作品集展示</h2>
+            <p data-i18n="workText">每个案例都围绕角色、业务复杂度、设计贡献和可衡量结果组织，适合面试快速建立信任。</p>
+          </div>
+          <div class="work-grid" id="workGrid"></div>
+        </section>
+
+        <section class="section leadership-section" id="leadership" aria-labelledby="leadership-title">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="leadershipEyebrow">Leadership</p>
+            <h2 id="leadership-title" data-i18n="leadershipTitle">设计主管综合能力</h2>
+            <p data-i18n="leadershipText">用组织机制、质量标准和跨部门影响力证明管理能力，而不只是列出头衔。</p>
+          </div>
+          <div class="leadership-layout">
+            <div class="leadership-main">
+              <div class="leadership-card large">
+                <p class="card-label" data-i18n="teamLabel">Team & Operating Model</p>
+                <h3 data-i18n="teamTitle">带领 8 人设计团队，建立从问题定义到上线复盘的设计作业系统。</h3>
+                <p data-i18n="teamText">
+                  建立设计评审、需求分级、组件治理、设计质量门禁和跨职能同步节奏，让团队在高压迭代中保持一致性。
+                </p>
+              </div>
+              <div class="leadership-pillars" id="leadershipPillars"></div>
+            </div>
+            <div class="interview-card">
+              <p class="card-label" data-i18n="interviewLabel">Interview Signals</p>
+              <h3 data-i18n="interviewTitle">面试官能快速感知的负责人信号</h3>
+              <ul id="interviewSignals"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="capabilities" aria-labelledby="capabilities-title">
+          <div class="section-heading compact">
+            <p class="eyebrow" data-i18n="capabilityEyebrow">Capability Matrix</p>
+            <h2 id="capabilities-title" data-i18n="capabilityTitle">能力矩阵</h2>
+          </div>
+          <div class="capability-grid" id="capabilityGrid"></div>
+        </section>
+
+        <section class="section timeline-section" id="experience" aria-labelledby="experience-title">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="experienceEyebrow">Experience</p>
+            <h2 id="experience-title" data-i18n="experienceTitle">设计经历时间线</h2>
+            <p data-i18n="experienceText">从独立贡献者到设计主管，展示岗位成长、业务范围扩大和团队管理责任。</p>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </section>
+
+        <section class="section process-section" id="process" aria-labelledby="process-title">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="processEyebrow">Design Process</p>
+            <h2 id="process-title" data-i18n="processTitle">从机会到规模化落地的方法论</h2>
+          </div>
+          <div class="process-rail" id="processRail"></div>
+        </section>
+
+        <section class="section proof-section" aria-labelledby="proof-title">
+          <div class="section-heading compact">
+            <p class="eyebrow" data-i18n="proofEyebrow">Testimonials</p>
+            <h2 id="proof-title" data-i18n="proofTitle">协作影响力</h2>
+          </div>
+          <div class="quote-grid" id="quoteGrid"></div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+          <div>
+            <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+            <h2 id="contact-title" data-i18n="contactTitle">准备好替换成你的真实经历后，就可以用于求职展示。</h2>
+            <p data-i18n="contactText">保留模板结构，替换姓名、项目截图、业务指标和真实案例，即可形成高竞争力作品集。</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:alex.design@example.com">alex.design@example.com</a>
+            <a class="button secondary" href="#work" data-i18n="contactSecondary">回到作品集</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="case-dialog" id="caseDialog" aria-labelledby="dialogTitle">
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Close case study">×</button>
+      <p class="eyebrow" id="dialogType"></p>
+      <h2 id="dialogTitle"></h2>
+      <p id="dialogRole" class="dialog-role"></p>
+      <div class="dialog-grid">
+        <div>
+          <h3 data-i18n="dialogChallenge">业务挑战</h3>
+          <p id="dialogChallengeText"></p>
+        </div>
+        <div>
+          <h3 data-i18n="dialogContribution">核心贡献</h3>
+          <p id="dialogContributionText"></p>
+        </div>
+        <div>
+          <h3 data-i18n="dialogImpact">结果指标</h3>
+          <p id="dialogImpactText"></p>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
