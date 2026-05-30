@@ -1,330 +1,187 @@
 const content = {
   zh: {
-    brandName: "Alex Design",
-    brandRole: "AI 设计主管作品集",
+    brandName: "何浩作品集",
+    brandRole: "AI / SaaS / C端产品设计",
     navWork: "作品",
     navLeadership: "领导力",
     navExperience: "经历",
     navProcess: "方法",
     navContact: "联系",
     heroEyebrow: "AI Product Design Lead / Design Manager",
-    heroTitle: "把 AI 能力转译成可信、可用、可规模化的产品体验。",
+    heroTitle: "用真实项目证明 AI、SaaS、C端体验与设计管理的综合能力。",
     heroText:
-      "这是一个面向互联网 AI 设计主管岗位的作品集模板，突出产品策略、复杂体验、设计系统和团队管理能力。",
-    heroPrimary: "查看精选项目",
+      "这里整理了 6 个真实设计项目，覆盖 AI商家运营、AI点餐、AI评价、餐饮 SaaS、小程序模板库、海外产品设计和大客定制化体验。",
+    heroPrimary: "查看 6 个项目",
     heroSecondary: "查看管理能力",
-    profileStatus: "开放 AI 设计主管机会",
-    profileName: "Alex Chen",
-    profileSummary: "12 年产品设计经验，6 年设计团队管理经验，主导 AI、B端 SaaS、C端增长与设计系统。",
+    profileStatus: "真实作品集已整理",
+    profileName: "何浩 / Neo",
+    profileSummary: "149 张作品详情图，覆盖 AI 产品、餐饮 SaaS、C端小程序、海外产品和设计体系。",
     radarLabel: "能力组合",
-    radarTitle: "Strategy + AI UX + Leadership",
-    radarText: "从机会识别到跨团队落地，兼顾体验质量、业务结果和团队成长。",
-    workEyebrow: "Featured Work",
-    workTitle: "精选作品集展示",
-    workText: "每个案例都围绕角色、业务复杂度、设计贡献和可衡量结果组织，适合面试快速建立信任。",
+    radarTitle: "AI UX + SaaS + Design System",
+    radarText: "从业务场景、产品体验到视觉表达与规模化交付，展示设计主管的端到端能力。",
+    workEyebrow: "Selected Projects",
+    workTitle: "6 个真实设计项目",
+    workText: "首页只展示可核验事实：项目标题、方向、平台范围、标签和图片数量；详情页展示全部作品图片。",
     leadershipEyebrow: "Leadership",
     leadershipTitle: "设计主管综合能力",
-    leadershipText: "用组织机制、质量标准和跨部门影响力证明管理能力，而不只是列出头衔。",
+    leadershipText: "结合真实项目呈现从策略判断、体验设计、视觉系统到跨团队落地的设计领导力。",
     teamLabel: "Team & Operating Model",
-    teamTitle: "带领 8 人设计团队，建立从问题定义到上线复盘的设计作业系统。",
+    teamTitle: "用真实项目沉淀设计方法、体验标准和可复用的交付框架。",
     teamText:
-      "建立设计评审、需求分级、组件治理、设计质量门禁和跨职能同步节奏，让团队在高压迭代中保持一致性。",
+      "围绕 AI、SaaS 和多端产品，建立问题定义、方案验证、视觉规范、项目复盘和设计资产沉淀的完整流程。",
     interviewLabel: "Interview Signals",
     interviewTitle: "面试官能快速感知的负责人信号",
     capabilityEyebrow: "Capability Matrix",
     capabilityTitle: "能力矩阵",
     experienceEyebrow: "Experience",
     experienceTitle: "设计经历时间线",
-    experienceText: "从独立贡献者到设计主管，展示岗位成长、业务范围扩大和团队管理责任。",
+    experienceText: "从产品设计、业务复杂度和设计管理责任三个维度组织职业经历。",
     processEyebrow: "Design Process",
-    processTitle: "从机会到规模化落地的方法论",
-    proofEyebrow: "Testimonials",
-    proofTitle: "协作影响力",
+    processTitle: "从业务问题到可交付作品集的方法论",
+    proofEyebrow: "Portfolio Evidence",
+    proofTitle: "作品集证据",
     contactEyebrow: "Contact",
-    contactTitle: "准备好替换成你的真实经历后，就可以用于求职展示。",
-    contactText: "保留模板结构，替换姓名、项目截图、业务指标和真实案例，即可形成高竞争力作品集。",
+    contactTitle: "继续替换真实个人信息后，即可作为求职作品集使用。",
+    contactText: "项目图片、标题、方向和数量已结构化；后续可继续补充真实业务指标、团队规模和项目成果。",
     contactSecondary: "回到作品集",
-    dialogChallenge: "业务挑战",
-    dialogContribution: "核心贡献",
-    dialogImpact: "结果指标",
-    caseCta: "查看案例摘要",
+    caseCta: "查看完整详情",
     metrics: [
-      ["12+", "年产品设计经验"],
-      ["6+", "年团队管理"],
-      ["30+", "落地项目"],
-      ["3", "条产品线主导"],
-    ],
-    works: [
-      {
-        type: "AI Product",
-        title: "AI Agent 工作台 / AI Agent Workspace",
-        role: "Design Lead / AI UX Strategy",
-        summary: "从零到一设计任务、知识库、语音输入和多模型协作的 AI 原生工作台。",
-        tags: ["Agent UX", "LLM", "Multi-platform"],
-        stats: [
-          ["42%", "任务完成效率提升"],
-          ["18", "核心工作流重构"],
-          ["2x", "原型验证速度"],
-        ],
-        challenge: "用户在多个工具之间切换，项目上下文分散，AI 结果难以追踪和复用。",
-        contribution: "定义 Agent 任务模型、会话记忆、结果确认机制和跨端组件规范，组织算法、PM、研发进行多轮可用性验证。",
-        impact: "核心任务完成效率提升 42%，新用户首次完成关键任务时间缩短 35%，形成可复用 AI 交互模式库。",
-      },
-      {
-        type: "B2B SaaS",
-        title: "B端 SaaS 数据平台 / Enterprise Data Platform",
-        role: "Design Manager / Complex Systems",
-        summary: "重构数据分析、权限、告警和运营看板，让高密度业务系统更可理解。",
-        tags: ["Dashboard", "IA", "Design System"],
-        stats: [
-          ["31%", "分析路径缩短"],
-          ["68", "组件规范沉淀"],
-          ["24%", "工单下降"],
-        ],
-        challenge: "企业客户角色多、权限复杂、信息密度高，旧系统依赖培训和人工支持。",
-        contribution: "带队完成信息架构重组、关键路径梳理、数据可视化规范和多角色权限体验，推动设计系统与前端组件对齐。",
-        impact: "核心分析路径缩短 31%，支持工单下降 24%，组件复用率提升至 78%。",
-      },
-      {
-        type: "Consumer Growth",
-        title: "C端增长体验 / Consumer Growth Engine",
-        role: "Product Design Lead / Growth UX",
-        summary: "围绕搜索、推荐、会员转化和支付链路，建立增长实验和体验质量双闭环。",
-        tags: ["C端", "Growth", "Experiment"],
-        stats: [
-          ["16%", "会员转化提升"],
-          ["9.2", "体验满意度"],
-          ["12", "A/B 实验周期"],
-        ],
-        challenge: "增长动作分散在多个入口，用户价值感知弱，运营活动对核心体验产生干扰。",
-        contribution: "重构会员权益表达、推荐解释、支付确认和活动入口层级，建立设计与数据团队共用的实验评估模板。",
-        impact: "会员转化提升 16%，活动页跳失率下降 21%，体验满意度提升至 9.2/10。",
-      },
-      {
-        type: "Design System",
-        title: "企业级设计系统 / Enterprise Design System",
-        role: "Design Manager / Design Ops",
-        summary: "建立组件治理、Design Token、设计评审和质量门禁，支撑多产品线规模化交付。",
-        tags: ["Design Ops", "Tokens", "Governance"],
-        stats: [
-          ["60%", "交付速度提升"],
-          ["120+", "组件与模式"],
-          ["4", "业务线接入"],
-        ],
-        challenge: "多团队重复造组件，视觉和交互不一致，研发还原成本高。",
-        contribution: "搭建设计系统路线图、组件贡献流程、Token 命名规则和设计 QA 清单，并推动研发组件库同步。",
-        impact: "设计到研发交付速度提升 60%，跨产品一致性显著改善，4 条业务线完成迁移。",
-      },
+      ["6", "真实设计项目"],
+      ["149", "作品详情图片"],
+      ["3", "AI产品方向"],
+      ["4", "平台类型覆盖"],
     ],
     pillars: [
-      ["设计质量治理", "建立评审分层、走查清单和上线复盘机制，把体验质量变成可持续流程。"],
-      ["跨职能推动", "和 PM、研发、算法、数据、运营共同定义问题，减少方案在落地中的损耗。"],
-      ["人才培养", "通过项目 owner 制、案例复盘和能力矩阵，帮助设计师从执行走向策略。"],
+      ["产品策略", "从餐饮商家、消费者、小程序和海外 SaaS 场景中提炼业务目标与体验机会。"],
+      ["体验系统", "覆盖 AI 助手、点餐链路、评价管理、会员活动和模板库等多类型体验。"],
+      ["视觉表达", "通过完整项目长图展示信息层级、视觉风格、品牌表达和多端一致性。"],
     ],
     interviewSignals: [
-      "能讲清 AI 产品的不确定性、信任感、反馈闭环和人工介入边界。",
-      "能把设计系统从视觉规范推进到研发组件、Token 和治理流程。",
-      "能用业务指标证明设计价值，而不是只展示页面美观度。",
-      "能说明团队如何协作、如何决策、如何处理资源冲突。",
+      "作品数量充足，能从 149 张详情图中展示完整设计过程和最终方案。",
+      "AI 项目覆盖商家助手、智能点餐、评价专家，方向集中且和业务场景结合明确。",
+      "SaaS 与 C端项目并重，能说明复杂系统和用户体验之间的平衡。",
+      "首页只使用可核验事实，避免未经验证的业务指标影响可信度。",
     ],
     capabilities: [
-      ["01", "产品策略", "机会识别、路线图协作、商业目标拆解和优先级判断。"],
-      ["02", "UX 研究", "访谈、可用性测试、数据分析、用户旅程和问题定义。"],
-      ["03", "AI 交互", "Agent 流程、Prompt 体验、信任机制、异常状态和人工接管。"],
-      ["04", "视觉系统", "界面层级、品牌表达、数据可视化和多端一致性。"],
-      ["05", "设计工程化", "Design Token、组件库、Design-to-Code 和设计 QA。"],
-      ["06", "管理领导力", "团队搭建、目标管理、设计评审、人才培养和跨部门影响。"],
+      ["01", "AI 产品设计", "AI商家助手、AI点餐、AI评价专家等真实项目中的智能化体验设计。"],
+      ["02", "餐饮 SaaS", "围绕商家经营、点餐、模板库和评价管理展开的餐饮系统设计能力。"],
+      ["03", "C端体验", "小程序点餐、会员活动、积分商城和品牌化消费体验。"],
+      ["04", "海外产品", "PEPPR GROW 覆盖 C端、B端、官网和设计体系的海外产品设计。"],
+      ["05", "视觉系统", "多项目、多风格、多端界面的视觉表达和品牌一致性。"],
+      ["06", "设计管理", "用结构化项目介绍、图片证据和方法论展示负责人视角。"],
     ],
     timeline: [
-      ["2023 - Now", "AI Product Design Manager", "互联网 AI 平台团队", "负责 AI Agent、企业 Copilot 和平台设计系统，管理 8 人设计团队。"],
-      ["2020 - 2023", "Lead Product Designer", "B端 SaaS 产品线", "主导复杂业务系统改版，建立跨产品组件规范和数据看板体验。"],
-      ["2017 - 2020", "Senior UX Designer", "C端增长业务", "负责用户增长、会员转化和核心交易链路优化，参与多轮 A/B 实验。"],
-      ["2012 - 2017", "UI / UX Designer", "移动互联网产品", "从视觉、交互到原型交付，积累多行业产品设计基础能力。"],
+      ["2026", "真实作品集更新", "6 个项目 / 149 张图片", "完成 AI、SaaS、C端、海外产品与大客定制化项目的系统整理。"],
+      ["AI 产品方向", "AI商家小帮手 / AI智能点餐 / AI评价专家", "AI体验设计", "覆盖商家运营、点餐服务、评价回复和差评申诉等真实业务场景。"],
+      ["餐饮 SaaS 方向", "小程序模板库 / 海外SaaS / 定制化小程序", "多端产品设计", "覆盖商家端、用户端、官网展示、模板体系和品牌定制体验。"],
+      ["作品集网站", "GitHub Pages 线上展示", "结构化发布", "将真实图片资产整理为可访问、可跳转、可面试展示的网站。"],
     ],
     process: [
-      ["01", "Discovery", "用业务访谈、数据观察和用户研究找到真正的问题。"],
-      ["02", "Strategy", "把目标、约束、指标和优先级转化为可执行设计策略。"],
-      ["03", "Design", "用原型、流程、界面和设计系统快速形成可验证方案。"],
-      ["04", "Validation", "通过可用性测试、数据实验和专家评审降低决策风险。"],
-      ["05", "Delivery", "和研发共建组件、状态、边界条件和上线验收标准。"],
-      ["06", "Scale", "沉淀模式库、复盘机制和团队工作方式，支撑规模化交付。"],
+      ["01", "整理", "按项目目录识别 6 个项目和 149 张作品图片。"],
+      ["02", "压缩", "生成网页友好的轻量 JPG，不修改桌面原图。"],
+      ["03", "结构化", "用项目标题、简介、标签、平台和图片数量建立首页卡片。"],
+      ["04", "详情页", "每个项目支持独立详情页，完整展示全部图片。"],
+      ["05", "校验", "用文件数量和页面渲染确认项目数据准确。"],
+      ["06", "发布", "通过 GitHub Pages 形成可访问的在线作品集。"],
     ],
     quotes: [
-      ["产品负责人", "Alex 能把模糊的 AI 能力拆成用户真正能理解的产品路径，并且让团队在复杂约束下快速对齐。"],
-      ["研发负责人", "设计系统不是停留在 Figma 里，而是和组件库、状态规则、验收标准一起落到了工程流程。"],
-      ["团队成员", "他关注每个人的成长路径，会把项目机会变成能力提升机会，也能在关键节点保护设计质量。"],
+      ["真实项目覆盖", "6 个项目覆盖 AI、SaaS、小程序、海外产品和大客定制化，适合展示设计主管综合能力。"],
+      ["图片证据充分", "149 张项目详情图能支撑面试中的过程说明、方案讲解和视觉细节展示。"],
+      ["数据表达克制", "首页核心数据只使用图片数量、平台范围和项目方向等可核验事实。"],
     ],
   },
   en: {
-    brandName: "Alex Design",
-    brandRole: "AI Design Lead Portfolio",
+    brandName: "He Hao Portfolio",
+    brandRole: "AI / SaaS / Consumer Product Design",
     navWork: "Work",
     navLeadership: "Leadership",
     navExperience: "Experience",
     navProcess: "Process",
     navContact: "Contact",
     heroEyebrow: "AI Product Design Lead / Design Manager",
-    heroTitle: "Turning AI capability into trusted, usable, scalable product experiences.",
+    heroTitle: "A real portfolio proving AI, SaaS, consumer UX, and design leadership capability.",
     heroText:
-      "A polished portfolio template for AI design leadership roles, highlighting product strategy, complex UX, design systems, and team leadership.",
-    heroPrimary: "View selected work",
+      "Six real design projects covering AI merchant operations, AI ordering, AI reviews, restaurant SaaS, mini program templates, global product design, and key-account customization.",
+    heroPrimary: "View 6 projects",
     heroSecondary: "See leadership",
-    profileStatus: "Open to AI design leadership roles",
-    profileName: "Alex Chen",
+    profileStatus: "Real portfolio organized",
+    profileName: "He Hao / Neo",
     profileSummary:
-      "12 years in product design, 6 years leading teams across AI products, enterprise SaaS, consumer growth, and design systems.",
+      "149 portfolio images across AI products, restaurant SaaS, consumer mini programs, global products, and design systems.",
     radarLabel: "Capability mix",
-    radarTitle: "Strategy + AI UX + Leadership",
-    radarText: "From opportunity framing to cross-functional delivery, balancing experience quality, business outcomes, and team growth.",
-    workEyebrow: "Featured Work",
-    workTitle: "Selected portfolio projects",
+    radarTitle: "AI UX + SaaS + Design System",
+    radarText: "End-to-end design capability from business scenarios and product UX to visual systems and scalable delivery.",
+    workEyebrow: "Selected Projects",
+    workTitle: "6 real design projects",
     workText:
-      "Each case is structured around role, business complexity, design contribution, and measurable impact for fast interview trust.",
+      "The homepage uses verified facts only: project title, direction, platform scope, tags, and image count. Detail pages show all images.",
     leadershipEyebrow: "Leadership",
     leadershipTitle: "Design leadership strengths",
-    leadershipText: "Prove management ability through operating models, quality standards, and cross-functional influence.",
+    leadershipText: "Real projects demonstrate strategic judgment, UX craft, visual systems, and cross-functional delivery.",
     teamLabel: "Team & Operating Model",
-    teamTitle: "Led an 8-person design team and built an operating system from problem framing to launch retros.",
+    teamTitle: "Turning real projects into design methods, experience standards, and reusable delivery frameworks.",
     teamText:
-      "Established design critiques, request triage, component governance, quality gates, and cross-functional rituals to keep teams aligned under pressure.",
+      "Across AI, SaaS, and multi-platform products, the portfolio shows problem framing, validation, visual standards, retros, and design assets.",
     interviewLabel: "Interview Signals",
-    interviewTitle: "Leadership signals hiring teams can read quickly",
+    interviewTitle: "Signals hiring teams can read quickly",
     capabilityEyebrow: "Capability Matrix",
     capabilityTitle: "Capability matrix",
     experienceEyebrow: "Experience",
     experienceTitle: "Experience timeline",
-    experienceText: "Show the growth from individual contributor to design leader through larger scope and team responsibility.",
+    experienceText: "Career experience is organized through product design, business complexity, and leadership scope.",
     processEyebrow: "Design Process",
-    processTitle: "A method from opportunity to scalable delivery",
-    proofEyebrow: "Testimonials",
-    proofTitle: "Collaboration impact",
+    processTitle: "A method from business problem to portfolio evidence",
+    proofEyebrow: "Portfolio Evidence",
+    proofTitle: "Portfolio evidence",
     contactEyebrow: "Contact",
-    contactTitle: "Replace the template content with your real experience and it is ready for hiring conversations.",
-    contactText: "Keep the structure, then replace name, screenshots, metrics, and real case studies to build a competitive portfolio.",
+    contactTitle: "Replace personal contact details and this becomes a hiring-ready portfolio.",
+    contactText:
+      "Project images, titles, directions, and counts are structured. Real business metrics and team scope can be added later.",
     contactSecondary: "Back to work",
-    dialogChallenge: "Challenge",
-    dialogContribution: "Contribution",
-    dialogImpact: "Impact",
-    caseCta: "View case summary",
+    caseCta: "View full case",
     metrics: [
-      ["12+", "Years Experience"],
-      ["6+", "Years Leadership"],
-      ["30+", "Projects Shipped"],
-      ["3", "Product Lines Led"],
-    ],
-    works: [
-      {
-        type: "AI Product",
-        title: "AI Agent Workspace",
-        role: "Design Lead / AI UX Strategy",
-        summary:
-          "Designed an AI-native workspace for tasks, knowledge, voice input, and multi-model collaboration from zero to one.",
-        tags: ["Agent UX", "LLM", "Multi-platform"],
-        stats: [
-          ["42%", "Task efficiency gain"],
-          ["18", "Core workflows rebuilt"],
-          ["2x", "Prototype validation speed"],
-        ],
-        challenge:
-          "Users switched across too many tools, project context was fragmented, and AI outputs were hard to track or reuse.",
-        contribution:
-          "Defined the agent task model, conversation memory, result confirmation patterns, and cross-platform components with PM, engineering, and AI teams.",
-        impact:
-          "Improved core task efficiency by 42%, reduced time to first key task by 35%, and created reusable AI interaction patterns.",
-      },
-      {
-        type: "B2B SaaS",
-        title: "Enterprise Data Platform",
-        role: "Design Manager / Complex Systems",
-        summary:
-          "Rebuilt analytics, permissions, alerts, and operational dashboards to make dense enterprise workflows easier to understand.",
-        tags: ["Dashboard", "IA", "Design System"],
-        stats: [
-          ["31%", "Shorter analysis path"],
-          ["68", "Documented components"],
-          ["24%", "Fewer support tickets"],
-        ],
-        challenge:
-          "Enterprise roles, permissions, and information density made the legacy platform dependent on training and manual support.",
-        contribution:
-          "Led IA restructuring, key journey redesign, visualization standards, and multi-role permissions while aligning design and front-end components.",
-        impact: "Reduced core analysis paths by 31%, lowered support tickets by 24%, and lifted component reuse to 78%.",
-      },
-      {
-        type: "Consumer Growth",
-        title: "Consumer Growth Engine",
-        role: "Product Design Lead / Growth UX",
-        summary:
-          "Built a dual loop for growth experiments and experience quality across search, recommendation, membership, and checkout.",
-        tags: ["Consumer", "Growth", "Experiment"],
-        stats: [
-          ["16%", "Membership conversion lift"],
-          ["9.2", "Experience score"],
-          ["12", "A/B testing cycles"],
-        ],
-        challenge:
-          "Growth tactics were scattered across entry points, user value was unclear, and campaigns interfered with the core journey.",
-        contribution:
-          "Redesigned membership value communication, recommendation explanation, checkout confirmation, and campaign hierarchy with a shared experiment template.",
-        impact: "Lifted membership conversion by 16%, reduced campaign page bounce by 21%, and raised satisfaction to 9.2/10.",
-      },
-      {
-        type: "Design System",
-        title: "Enterprise Design System",
-        role: "Design Manager / Design Ops",
-        summary:
-          "Established component governance, design tokens, critique rituals, and quality gates for scalable multi-product delivery.",
-        tags: ["Design Ops", "Tokens", "Governance"],
-        stats: [
-          ["60%", "Faster delivery"],
-          ["120+", "Components and patterns"],
-          ["4", "Business lines onboarded"],
-        ],
-        challenge:
-          "Multiple teams rebuilt similar components, visual and interaction patterns drifted, and engineering handoff costs kept rising.",
-        contribution:
-          "Built the system roadmap, contribution model, token naming rules, and design QA checklist while aligning with the front-end library.",
-        impact:
-          "Improved design-to-engineering delivery speed by 60%, increased product consistency, and migrated 4 business lines.",
-      },
+      ["6", "Real Projects"],
+      ["149", "Portfolio Images"],
+      ["3", "AI Directions"],
+      ["4", "Platform Types"],
     ],
     pillars: [
-      ["Design Quality", "Built layered critique, review checklists, and launch retros so quality becomes a repeatable team habit."],
-      ["Cross-functional Influence", "Partnered with PM, engineering, AI, data, and operations to reduce loss between strategy and delivery."],
-      ["Talent Growth", "Used project ownership, case reviews, and capability matrices to help designers grow from execution to strategy."],
+      ["Product Strategy", "Frame business goals and UX opportunities across merchants, consumers, mini programs, and global SaaS."],
+      ["Experience Systems", "Cover AI assistants, ordering journeys, review management, member campaigns, and template libraries."],
+      ["Visual Craft", "Use complete project image sets to show hierarchy, visual style, brand expression, and cross-platform consistency."],
     ],
     interviewSignals: [
-      "Can explain uncertainty, trust, feedback loops, and human handoff boundaries in AI products.",
-      "Can move a design system from Figma rules into components, tokens, and governance.",
-      "Can prove design value with business metrics, not only visual polish.",
-      "Can describe team collaboration, decision making, and resource tradeoffs clearly.",
+      "149 detailed images provide enough evidence for process, solution, and visual quality discussion.",
+      "AI work spans merchant assistant, AI ordering, and AI review expert with clear business context.",
+      "SaaS and consumer projects are both represented, showing balance between complex systems and end-user UX.",
+      "Homepage metrics stay factual and avoid unverifiable business claims.",
     ],
     capabilities: [
-      ["01", "Product Strategy", "Opportunity framing, roadmap partnership, business goal translation, and priority judgment."],
-      ["02", "UX Research", "Interviews, usability tests, data analysis, user journeys, and problem definition."],
-      ["03", "AI Interaction", "Agent flows, prompt UX, trust mechanisms, exception states, and human takeover."],
-      ["04", "Visual Systems", "Interface hierarchy, brand expression, data visualization, and cross-platform consistency."],
-      ["05", "Design Engineering", "Design tokens, component libraries, design-to-code, and design QA."],
-      ["06", "Leadership", "Team building, goals, design critiques, mentorship, and cross-functional influence."],
+      ["01", "AI Product Design", "AI merchant assistant, AI ordering, and AI review expert experiences."],
+      ["02", "Restaurant SaaS", "Merchant operations, ordering, template library, and review management."],
+      ["03", "Consumer UX", "Mini program ordering, member campaigns, points store, and brand experiences."],
+      ["04", "Global Product", "PEPPR GROW covers consumer, business, website, and design system work."],
+      ["05", "Visual Systems", "Multi-style, multi-platform UI and brand consistency across projects."],
+      ["06", "Design Leadership", "Structured project storytelling, image evidence, and design methods from a lead perspective."],
     ],
     timeline: [
-      ["2023 - Now", "AI Product Design Manager", "Internet AI Platform Team", "Own AI agents, enterprise copilots, and platform design systems while managing an 8-person team."],
-      ["2020 - 2023", "Lead Product Designer", "Enterprise SaaS Product Line", "Led complex system redesigns and built shared components for analytics dashboards."],
-      ["2017 - 2020", "Senior UX Designer", "Consumer Growth Business", "Owned growth journeys, membership conversion, checkout optimization, and A/B testing cycles."],
-      ["2012 - 2017", "UI / UX Designer", "Mobile Internet Products", "Built foundations across visual design, interaction design, prototyping, and delivery."],
+      ["2026", "Portfolio update", "6 projects / 149 images", "Organized AI, SaaS, consumer, global product, and key-account customization work."],
+      ["AI Direction", "AI Merchant Assistant / AI Ordering / AI Review Expert", "AI UX Design", "Covers merchant operations, ordering services, AI replies, and review appeal scenarios."],
+      ["Restaurant SaaS", "Mini Program Library / Global SaaS / Custom Mini Program", "Multi-platform Product Design", "Covers merchant tools, consumer UX, website presentation, templates, and brand customization."],
+      ["Portfolio Website", "GitHub Pages showcase", "Structured Publishing", "Turns real image assets into an accessible online portfolio with detail pages."],
     ],
     process: [
-      ["01", "Discovery", "Find the real problem through stakeholder interviews, behavioral data, and user research."],
-      ["02", "Strategy", "Translate goals, constraints, metrics, and priorities into an actionable design strategy."],
-      ["03", "Design", "Shape testable solutions through flows, prototypes, interfaces, and design systems."],
-      ["04", "Validation", "Lower decision risk through usability testing, data experiments, and expert reviews."],
-      ["05", "Delivery", "Define components, states, edge cases, and acceptance criteria with engineering."],
-      ["06", "Scale", "Create pattern libraries, retros, and team rituals that support scalable delivery."],
+      ["01", "Organize", "Identify 6 projects and 149 portfolio images by folder structure."],
+      ["02", "Optimize", "Generate lightweight web JPGs without modifying source images."],
+      ["03", "Structure", "Build homepage cards with title, summary, tags, platform, and image count."],
+      ["04", "Detail", "Add project detail pages that display every image."],
+      ["05", "Verify", "Check image counts and page rendering for accuracy."],
+      ["06", "Publish", "Use GitHub Pages for an accessible online portfolio."],
     ],
     quotes: [
-      ["Product Lead", "Alex turns ambiguous AI capability into product paths users can understand, while keeping teams aligned under constraints."],
-      ["Engineering Lead", "The design system lived beyond Figma through component rules, states, acceptance standards, and engineering workflow."],
-      ["Team Member", "He turns project opportunities into growth opportunities and protects design quality at the moments that matter."],
+      ["Real project coverage", "Six projects cover AI, SaaS, mini programs, global products, and key-account customization."],
+      ["Strong image evidence", "149 detailed images support interview storytelling and solution walkthroughs."],
+      ["Factual metrics", "Homepage data uses verified facts such as image count, platform scope, and project direction."],
     ],
   },
 };
@@ -334,6 +191,17 @@ let currentLang = "zh";
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => Array.from(document.querySelectorAll(selector));
 
+function localizeProject(project, key) {
+  if (currentLang === "en") {
+    return project[`${key}En`] || project[key];
+  }
+  return project[key];
+}
+
+function projectCover(project) {
+  return `${project.imageDir}/01.jpg`;
+}
+
 function setTextContent() {
   const dictionary = content[currentLang];
   $$("[data-i18n]").forEach((node) => {
@@ -341,7 +209,7 @@ function setTextContent() {
     if (dictionary[key]) node.textContent = dictionary[key];
   });
   document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
-  document.title = currentLang === "zh" ? "AI 设计主管作品集" : "AI Design Lead Portfolio";
+  document.title = currentLang === "zh" ? "何浩作品集 2026" : "He Hao Portfolio 2026";
   $("[data-lang-toggle]").textContent = currentLang === "zh" ? "EN" : "中";
 }
 
@@ -359,20 +227,27 @@ function renderMetrics() {
 }
 
 function renderWorks() {
-  $("#workGrid").innerHTML = content[currentLang].works
-    .map(
-      (work, index) => `
-        <article class="work-card">
-          <div class="work-visual" role="img" aria-label="${work.title} project preview"></div>
+  const dictionary = content[currentLang];
+  $("#workGrid").innerHTML = portfolioProjects
+    .map((project) => {
+      const tags = currentLang === "en" ? project.tagsEn : project.tags;
+      const facts = currentLang === "en" ? project.factsEn : project.facts;
+      const title = localizeProject(project, "title");
+      return `
+        <article class="work-card real-work-card">
+          <a class="work-visual" href="./project.html?id=${project.id}" aria-label="${title}">
+            <img src="${projectCover(project)}" alt="${title} cover" loading="lazy" />
+          </a>
           <div class="work-card-content">
             <div class="tags">
-              <span class="tag">${work.type}</span>
-              ${work.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
+              <span class="tag">${localizeProject(project, "type")}</span>
+              ${tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
             </div>
-            <h3>${work.title}</h3>
-            <p>${work.summary}</p>
+            <h3>${title}</h3>
+            <p>${localizeProject(project, "summary")}</p>
+            <p class="project-platform">${localizeProject(project, "platform")}</p>
             <div class="work-meta">
-              ${work.stats
+              ${facts
                 .map(
                   ([value, label]) => `
                     <div>
@@ -383,13 +258,13 @@ function renderWorks() {
                 )
                 .join("")}
             </div>
-            <button class="button secondary case-open" type="button" data-case-index="${index}">
-              ${content[currentLang].caseCta}
-            </button>
+            <a class="button secondary case-open" href="./project.html?id=${project.id}">
+              ${dictionary.caseCta}
+            </a>
           </div>
         </article>
-      `
-    )
+      `;
+    })
     .join("");
 }
 
@@ -462,27 +337,11 @@ function renderSections() {
   );
 }
 
-function bindCaseButtons() {
-  $$(".case-open").forEach((button) => {
-    button.addEventListener("click", () => {
-      const work = content[currentLang].works[Number(button.dataset.caseIndex)];
-      $("#dialogType").textContent = work.type;
-      $("#dialogTitle").textContent = work.title;
-      $("#dialogRole").textContent = work.role;
-      $("#dialogChallengeText").textContent = work.challenge;
-      $("#dialogContributionText").textContent = work.contribution;
-      $("#dialogImpactText").textContent = work.impact;
-      $("#caseDialog").showModal();
-    });
-  });
-}
-
 function renderAll() {
   setTextContent();
   renderMetrics();
   renderWorks();
   renderSections();
-  bindCaseButtons();
 }
 
 $("[data-lang-toggle]").addEventListener("click", () => {
@@ -503,14 +362,18 @@ $(".nav-links").addEventListener("click", (event) => {
   }
 });
 
-$("[data-dialog-close]").addEventListener("click", () => {
-  $("#caseDialog").close();
-});
+const dialogCloseButton = $("[data-dialog-close]");
+if (dialogCloseButton) {
+  dialogCloseButton.addEventListener("click", () => $("#caseDialog").close());
+}
 
-$("#caseDialog").addEventListener("click", (event) => {
-  if (event.target.id === "caseDialog") {
-    $("#caseDialog").close();
-  }
-});
+const caseDialog = $("#caseDialog");
+if (caseDialog) {
+  caseDialog.addEventListener("click", (event) => {
+    if (event.target.id === "caseDialog") {
+      caseDialog.close();
+    }
+  });
+}
 
 renderAll();

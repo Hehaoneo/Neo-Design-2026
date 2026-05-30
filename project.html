@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="设计项目详情页，展示完整作品集图片和项目说明。" />
+    <title>设计项目详情</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell project-shell">
+      <header class="site-header" aria-label="Project navigation">
+        <a class="brand" href="./index.html#work" aria-label="Back to portfolio">
+          <span class="brand-mark">HD</span>
+          <span>
+            <strong>何浩作品集</strong>
+            <small>Project Case Study</small>
+          </span>
+        </a>
+
+        <nav class="nav-links project-nav" aria-label="Project links">
+          <a href="./index.html#work">返回首页</a>
+          <a href="#gallery">作品图片</a>
+          <a href="https://github.com/Hehaoneo/Neo-Design-2026">GitHub</a>
+        </nav>
+
+        <button class="language-toggle" type="button" aria-label="Switch language" data-project-lang-toggle>
+          EN
+        </button>
+      </header>
+
+      <main id="projectRoot"></main>
+    </div>
+
+    <script src="./portfolio-data.js"></script>
+    <script src="./project.js"></script>
+  </body>
+</html>
