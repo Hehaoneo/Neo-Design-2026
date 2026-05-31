@@ -203,7 +203,7 @@ const portfolioProjects = [
     typeEn: "International Design / Global Business",
     platform: "海外业务 / 多语言本地化 / 多地区体验",
     platformEn: "Global Business / Multilingual Localization / Regional Experience",
-    summary: "围绕海外业务和多地区产品体验，展示国际化设计策略、多语言本地化和跨文化体验适配。",
+    summary: "围绕海外业务和多地区产品体验，国际化设计策略、多语言本地化和跨文化体验适配。",
     summaryEn:
       "International design work covering global product strategy, multilingual localization, and cross-cultural experience adaptation.",
     tags: ["国际化设计", "海外业务", "本地化", "多地区体验"],
@@ -259,7 +259,7 @@ const portfolioProjects = [
     typeEn: "Design Management / Team Operations",
     platform: "团队管理 / 设计流程 / 评审机制 / 人才培养",
     platformEn: "Team Management / Design Process / Review Mechanism / Talent Growth",
-    summary: "展示设计团队管理、评审机制、流程建设、人才培养和设计运营方法，体现设计负责人综合能力。",
+    summary: "设计团队管理、评审机制、流程建设、人才培养和设计运营方法，设计综合能力。",
     summaryEn:
       "Design management work covering team leadership, review systems, process building, talent development, and design operations.",
     tags: ["设计管理", "团队运营", "设计评审", "人才培养"],

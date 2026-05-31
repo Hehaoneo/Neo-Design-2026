@@ -64,48 +64,10 @@ function renderProject() {
       </div>
     </section>
 
-    <section class="project-summary-grid" aria-label="Project facts">
-      ${facts
-        .map(
-          ([value, label]) => `
-            <div class="metric-card">
-              <strong>${value}</strong>
-              <span>${label}</span>
-            </div>
-          `
-        )
-        .join("")}
-      <div class="project-platform-card">
-        <p class="card-label">${projectLang === "en" ? "Platform Scope" : "平台与范围"}</p>
-        <h2>${platform}</h2>
-      </div>
-    </section>
-
-    <section class="section project-points" aria-label="Project highlights">
-      <div class="section-heading compact">
-        <p class="eyebrow">${projectLang === "en" ? "Case Structure" : "项目结构"}</p>
-        <h2>${projectLang === "en" ? "What this case covers" : "这个项目重点展示什么"}</h2>
-      </div>
-      <div class="capability-grid project-point-grid">
-        ${detailPoints
-          .map(
-            (point, index) => `
-              <article class="capability-card">
-                <strong>${String(index + 1).padStart(2, "0")}</strong>
-                <h3>${point}</h3>
-                <p>${projectLang === "en" ? "Verified from the project image set and folder structure." : "基于项目图片内容与文件夹结构整理。"}</p>
-              </article>
-            `
-          )
-          .join("")}
-      </div>
-    </section>
-
     <section class="section project-gallery-section" id="gallery" aria-label="Project image gallery">
       <div class="section-heading">
-        <p class="eyebrow">${projectLang === "en" ? "Full Gallery" : "完整作品图片"}</p>
-        <h2>${projectLang === "en" ? `${project.imageCount} portfolio images` : `${project.imageCount} 张作品详情图`}</h2>
-        <p>${projectLang === "en" ? "Images are displayed in the original portfolio order, optimized for web loading." : "图片按原作品集顺序展示，已生成适合网页加载的压缩版本。"}</p>
+        <p class="eyebrow">${projectLang === "en" ? "Design Project Summary" : "DESIGN PROJECT SUMMARY"}</p>
+        <h2>${projectLang === "en" ? "Design Project Introduction" : "设计项目介绍"}</h2>
       </div>
       <div class="project-gallery">
         ${Array.from({ length: project.imageCount }, (_, index) => {

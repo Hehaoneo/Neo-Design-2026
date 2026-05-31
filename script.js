@@ -2,17 +2,17 @@ const content = {
   zh: {
     brandName: "何浩 / Hao He",
     brandRole: "高级设计主管 / 设计总监",
-    navWork: "作品",
-    navLeadership: "领导力",
-    navExperience: "经历",
-    navProcess: "方法",
-    navContact: "联系",
+    navWork: "设计项目",
+    navLeadership: "设计管理",
+    navExperience: "工作经历",
+    navProcess: "设计策略",
+    navContact: "联系方式",
     heroEyebrow: "Senior Design Manager / Design Director / AI Product Design",
     heroTitle: "12年互联网设计经验，6年设计管理，驱动 AI、B端SaaS 与 C端体验增长。",
     heroText:
       "曾任美团设计经理、阿里巴巴设计主管、SAP高级用户体验设计师，同济大学设计艺术学硕士。擅长从0到1搭建设计体系与高绩效团队，用设计度量、AI工作流和国际化视野推动业务结果。",
-    heroPrimary: "查看 6 个项目",
-    heroSecondary: "查看真实履历",
+    heroPrimary: "查看设计项目",
+    heroSecondary: "查看工作经历",
     profileStatus: "开放高级设计主管 / 设计总监机会",
     profileName: "何浩 / Hao He",
     profileSummary: "美团 · 阿里巴巴 · SAP · ACTIVE Network｜同济大学设计艺术学硕士｜AI产品、B端SaaS、C端小程序、国际化设计。",
@@ -31,9 +31,9 @@ const content = {
     interviewLabel: "Professional Summary",
     interviewTitle: "经历总结",
     capabilityEyebrow: "Capability Matrix",
-    capabilityTitle: "个人优势能力",
+    capabilityTitle: "个人优势",
     experienceEyebrow: "Experience",
-    experienceTitle: "设计经历",
+    experienceTitle: "工作经历",
     processEyebrow: "Design Process",
     processTitle: "从业务问题到设计策略",
     proofEyebrow: "Career Highlights",
@@ -104,7 +104,7 @@ const content = {
     heroText:
       "Former Design Manager at Meituan, Design Leader at Alibaba, and Senior UX Designer at SAP China. MA in Design from Tongji University. Specialized in AI product design, B2B SaaS, consumer mini programs, internationalization, design systems, and design metrics.",
     heroPrimary: "View 6 projects",
-    heroSecondary: "See experience",
+    heroSecondary: "See work experience",
     profileStatus: "Open to senior design leadership roles",
     profileName: "Hao He",
     profileSummary:
@@ -249,19 +249,6 @@ function renderWorks() {
             </div>
             <h3>${title}</h3>
             <p>${localizeProject(project, "summary")}</p>
-            <p class="project-platform">${localizeProject(project, "platform")}</p>
-            <div class="work-meta">
-              ${facts
-                .map(
-                  ([value, label]) => `
-                    <div>
-                      <strong>${value}</strong>
-                      <span>${label}</span>
-                    </div>
-                  `
-                )
-                .join("")}
-            </div>
             <a class="button secondary case-open" href="./project.html?id=${project.id}">
               ${dictionary.caseCta}
             </a>
