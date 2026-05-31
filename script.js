@@ -17,7 +17,7 @@ const content = {
     profileName: "何浩 / Hao He",
     profileSummary: "美团 · 阿里巴巴 · SAP · ACTIVE Network｜同济大学设计艺术学硕士｜AI产品、B端SaaS、C端小程序、国际化设计。",
     radarLabel: "能力组合",
-    radarTitle: "Design Leadership + AI UX + Business Impact",
+    radarTitle: "设计领导力+AI智能化设计+商业设计",
     radarText: "从设计策略、团队管理、设计体系到业务指标，用真实项目和可量化结果证明设计价值。",
     workEyebrow: "Selected Projects",
     workTitle: "6 个真实设计项目",
