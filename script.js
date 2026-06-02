@@ -7,6 +7,7 @@ const content = {
     navExperience: "工作经历",
     navProcess: "设计策略",
     navContact: "联系方式",
+    navDownload: "下载简历作品集",
     heroEyebrow: "Senior Design Manager / Design Director / AI Product Design",
     heroTitle: "10+年设计经验，6年设计管理，AI 设计、B端SaaS 与 C端体验增长。",
     heroText:
@@ -40,8 +41,8 @@ const content = {
     proofTitle: "职业亮点",
     contactEyebrow: "Contact",
     contactTitle: "欢迎联系",
-    contactText: "邮箱：hehaoneo@gmail.com。页面不公开展示手机号和微信，完整联系方式可在 PDF 简历中查看。",
-    resumeDownload: "下载 PDF 简历",
+    contactText: "邮箱：hehaoneo@gmail.com。页面不公开展示手机号和微信，完整联系方式与作品合集可在下载文件中查看。",
+    resumeDownload: "下载简历作品集",
     contactSecondary: "回到作品集",
     caseCta: "查看完整详情",
     metrics: [
@@ -99,6 +100,7 @@ const content = {
     navExperience: "Experience",
     navProcess: "Process",
     navContact: "Contact",
+    navDownload: "Download Resume Portfolio",
     heroEyebrow: "Senior Design Manager / Design Lead / AI Product Design",
     heroTitle: "12 years in internet design, 6 years leading teams across AI, B2B SaaS, and consumer products.",
     heroText:
@@ -137,8 +139,8 @@ const content = {
     contactEyebrow: "Contact",
     contactTitle: "If you need a design leader combining AI product design, B2B SaaS, consumer UX, and design management, let’s talk.",
     contactText:
-      "Email: hehaoneo@gmail.com. Phone and WeChat are not shown directly on this page; full contact details are available in the PDF resume.",
-    resumeDownload: "Download PDF Resume",
+      "Email: hehaoneo@gmail.com. Phone and WeChat are not shown directly on this page; full contact details and portfolio files are available in the downloadable package.",
+    resumeDownload: "Download Resume Portfolio",
     contactSecondary: "Back to work",
     caseCta: "View full case",
     metrics: [
