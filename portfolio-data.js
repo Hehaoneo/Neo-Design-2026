@@ -205,7 +205,7 @@ const portfolioProjects = [
     platformEn: "Global Business / Multilingual Localization / Regional Experience",
     summary: "围绕海外业务和多地区产品体验，国际化设计策略、多语言本地化和跨文化体验适配。",
     summaryEn:
-      "International design work covering global product strategy, multilingual localization, and cross-cultural experience adaptation.",
+      "International design strategy, multilingual localization, and cross-cultural experience adaptation for global business and regional product experiences.",
     tags: ["国际化设计", "海外业务", "本地化", "多地区体验"],
     tagsEn: ["International Design", "Global Business", "Localization", "Regional UX"],
     facts: [
@@ -233,7 +233,7 @@ const portfolioProjects = [
     platformEn: "CSAT / NPS / Tickets / Renewal Experience",
     summary: "围绕客户体验管理体系，展示从体验问题识别、指标度量到持续优化的设计管理方法。",
     summaryEn:
-      "A customer experience management case covering experience diagnosis, metric tracking, and continuous optimization.",
+      "A customer experience management system covering experience issue identification, metric tracking, and continuous optimization methods.",
     tags: ["客户体验管理", "CSAT", "NPS", "体验度量"],
     tagsEn: ["CEM", "CSAT", "NPS", "Experience Metrics"],
     facts: [
@@ -261,7 +261,7 @@ const portfolioProjects = [
     platformEn: "Team Management / Design Process / Review Mechanism / Talent Growth",
     summary: "设计团队管理、评审机制、流程建设、人才培养和设计运营方法，设计综合能力。",
     summaryEn:
-      "Design management work covering team leadership, review systems, process building, talent development, and design operations.",
+      "Design team management, review mechanisms, process building, talent development, and design operations methods.",
     tags: ["设计管理", "团队运营", "设计评审", "人才培养"],
     tagsEn: ["Design Management", "Team Operations", "Design Review", "Talent Growth"],
     facts: [
