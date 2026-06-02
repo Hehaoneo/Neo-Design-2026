@@ -8,7 +8,7 @@ const content = {
     navProcess: "设计策略",
     navContact: "联系方式",
     heroEyebrow: "Senior Design Manager / Design Director / AI Product Design",
-    heroTitle: "12年互联网设计经验，6年设计管理，驱动 AI、B端SaaS 与 C端体验增长。",
+    heroTitle: "10+年设计经验，6年设计管理，AI 设计、B端SaaS 与 C端体验增长。",
     heroText:
       "曾任美团设计经理、阿里巴巴设计主管、SAP高级用户体验设计师，同济大学设计艺术学硕士。擅长从0到1搭建设计体系与高绩效团队，用设计度量、AI工作流和国际化视野推动业务结果。",
     heroPrimary: "查看设计项目",
@@ -23,7 +23,7 @@ const content = {
     workTitle: "设计项目",
 
     leadershipEyebrow: "Leadership",
-    leadershipTitle: "设计管理综合能力",
+    leadershipTitle: "设计领导力",
     teamLabel: "Team & Operating Model",
     teamTitle: "管理 12-20 人设计团队，主导团队从传统交付向 AI 驱动设计运营转型。",
     teamText:
@@ -35,17 +35,17 @@ const content = {
     experienceEyebrow: "Experience",
     experienceTitle: "工作经历",
     processEyebrow: "Design Process",
-    processTitle: "从业务问题到设计策略",
+    processTitle: "设计策略",
     proofEyebrow: "Career Highlights",
     proofTitle: "职业亮点",
     contactEyebrow: "Contact",
-    contactTitle: "如果你在找有AI产品、B端SaaS、C端体验和设计管理能力的设计负责人，欢迎联系。",
+    contactTitle: "欢迎联系",
     contactText: "邮箱：hehaoneo@gmail.com。页面不公开展示手机号和微信，完整联系方式可在 PDF 简历中查看。",
     resumeDownload: "下载 PDF 简历",
     contactSecondary: "回到作品集",
     caseCta: "查看完整详情",
     metrics: [
-      ["12年", "互联网设计经验"],
+      ["10+年", "互联网设计经验"],
       ["6年", "设计管理实战"],
       ["20人", "最大团队规模"],
       ["10+", "产品线覆盖"],
