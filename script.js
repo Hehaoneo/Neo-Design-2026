@@ -43,7 +43,7 @@ const content = {
     contactTitle: "欢迎联系",
     contactText: "邮箱：hehaoneo@gmail.com。页面不公开展示手机号和微信，完整联系方式与作品合集可在下载文件中查看。",
     resumeDownload: "下载简历作品集",
-    contactSecondary: "回到作品集",
+    contactSecondary: "回到顶部",
     caseCta: "查看完整详情",
     metrics: [
       ["10+年", "互联网设计经验"],
@@ -314,17 +314,6 @@ function renderSections() {
         <span class="step">${number}</span>
         <h3>${title}</h3>
         <p>${text}</p>
-      </article>
-    `
-  );
-
-  renderList(
-    "#quoteGrid",
-    dictionary.quotes,
-    ([person, quote]) => `
-      <article class="quote-card">
-        <blockquote>${quote}</blockquote>
-        <p>${person}</p>
       </article>
     `
   );
