@@ -72,11 +72,38 @@ const content = {
       ["06", "设计度量", "CSAT、NPS、工单量、复用率、效率、人效和业务续签等设计价值度量。"],
     ],
     timeline: [
-      ["2023.01 - 至今", "设计经理", "美团｜3年", "统筹管理12-20人设计团队，负责餐饮SaaS智能化设计、AI智能助手、C端小程序、B端PC、POS、APP等核心产品；满意度提升30%，工单量降低20%，海外业务NPS达+40。"],
-      ["2017.09 - 2023.01", "设计主管", "阿里巴巴集团｜6年", "带领6人设计小组，主导 ASCP Design System 3.0 从0到1搭建，覆盖 ERP/OMS/SaaS 等10+核心产品；CSAT提升30%，团队晋升率50%，留存率100%。"],
-      ["2015.11 - 2017.09", "高级用户体验设计师", "SAP中国｜2年", "参与 SAP Fiori Design 体系共建，服务全球40+设计师团队；主导 Chart Design 组件库设计，被3个核心产品线采用，组件复用率80%+。"],
-      ["2014.08 - 2015.11", "体验设计师", "ACTIVE Network｜1年", "负责体育健身类移动应用设计优化，主导 ActiveX、Couch to 5K、Meet Mobile 等5款 iOS/Android 产品设计与上线。"],
-      ["2011.09 - 2014.07", "设计艺术学硕士", "同济大学｜工业设计", "主修产品设计、体验设计、设计思维工作坊，获国家励志奖学金。"],
+      {
+        period: "2023 - 至今",
+        role: "设计经理",
+        company: "美团",
+        note: "AI设计转型，管理20人团队",
+        detail: "统筹管理12-20人设计团队，负责餐饮SaaS智能化设计、AI智能助手、C端小程序、B端PC、POS、APP等核心产品；满意度提升30%，工单量降低20%，海外业务NPS达+40。",
+        logo: "assets/logos/meituan.png",
+      },
+      {
+        period: "2017 - 2023",
+        role: "设计主管",
+        company: "阿里巴巴",
+        note: "设计系统从0到1，国际化",
+        detail: "带领6人设计小组，主导 ASCP Design System 3.0 从0到1搭建，覆盖 ERP/OMS/SaaS 等10+核心产品；CSAT提升30%，团队晋升率50%，留存率100%。",
+        logo: "assets/logos/alibaba.svg",
+      },
+      {
+        period: "2015 - 2017",
+        role: "高级用户体验设计师",
+        company: "SAP",
+        note: "Fiori设计体系",
+        detail: "参与 SAP Fiori Design 体系共建，服务全球40+设计师团队；主导 Chart Design 组件库设计，被3个核心产品线采用，组件复用率80%+。",
+        logo: "assets/logos/sap.svg",
+      },
+      {
+        period: "2014 - 2015",
+        role: "体验设计师",
+        company: "ACTIVE Network",
+        note: "国际化健身APP",
+        detail: "负责体育健身类移动应用设计优化，主导 ActiveX、Couch to 5K、Meet Mobile 等5款 iOS/Android 产品设计与上线。",
+        logo: "assets/logos/active-network.svg",
+      },
     ],
     process: [
       ["01", "诊断业务", "从商家经营、供应链、国际化、本地化和AI智能化场景中识别核心问题。"],
@@ -170,11 +197,38 @@ const content = {
       ["06", "Design Metrics", "CSAT, NPS, ticket volume, reuse rate, efficiency, productivity, and renewal metrics."],
     ],
     timeline: [
-      ["2023.01 - Present", "Design Manager", "Meituan | 3 years", "Led 12-20 member design team across intelligent restaurant SaaS, AI assistant products, consumer mini programs, B2B PC, POS, and APP. Improved satisfaction by 30%, reduced ticket volume by 20%, and achieved overseas NPS +40."],
-      ["2017.09 - 2023.01", "Design Leader", "Alibaba | 6 years", "Led a 6-person design team and created ASCP Design System 3.0 from 0 to 1 across 10+ ERP, OMS, and SaaS products. Increased CSAT by 30%, with 50% team promotion rate and 100% retention."],
-      ["2015.11 - 2017.09", "Senior User Experience Designer", "SAP China | 2 years", "Co-developed SAP Fiori Design system for a global 40+ designer team. Led Chart Design component library adopted by 3 core product lines with 80%+ component reuse."],
-      ["2014.08 - 2015.11", "User Interaction Designer", "ACTIVE Network | 1 year", "Owned sports and fitness mobile app design and launched 5 iOS/Android products including ActiveX, Couch to 5K, and Meet Mobile."],
-      ["2011.09 - 2014.07", "Master of Arts & Design", "Tongji University | Industrial Design", "Focused on product design, experience design, and design thinking workshops. Recipient of the National Scholarship for Encouragement."],
+      {
+        period: "2023 - Present",
+        role: "Design Manager",
+        company: "Meituan",
+        note: "AI design transformation, 20-member team",
+        detail: "Led a 12-20 member design team across intelligent restaurant SaaS, AI assistant products, consumer mini programs, B2B PC, POS, and APP. Improved satisfaction by 30%, reduced ticket volume by 20%, and achieved overseas NPS +40.",
+        logo: "assets/logos/meituan.png",
+      },
+      {
+        period: "2017 - 2023",
+        role: "Design Lead",
+        company: "Alibaba",
+        note: "0-to-1 design system, internationalization",
+        detail: "Led a 6-person design team and created ASCP Design System 3.0 from 0 to 1 across 10+ ERP, OMS, and SaaS products. Increased CSAT by 30%, with 50% team promotion rate and 100% retention.",
+        logo: "assets/logos/alibaba.svg",
+      },
+      {
+        period: "2015 - 2017",
+        role: "Senior UX Designer",
+        company: "SAP",
+        note: "Fiori design system",
+        detail: "Co-developed SAP Fiori Design system for a global 40+ designer team. Led Chart Design component library adopted by 3 core product lines with 80%+ component reuse.",
+        logo: "assets/logos/sap.svg",
+      },
+      {
+        period: "2014 - 2015",
+        role: "UX Designer",
+        company: "ACTIVE Network",
+        note: "international fitness apps",
+        detail: "Owned sports and fitness mobile app design and launched 5 iOS/Android products including ActiveX, Couch to 5K, and Meet Mobile.",
+        logo: "assets/logos/active-network.svg",
+      },
     ],
     process: [
       ["01", "Diagnose", "Identify core problems across merchant operations, supply chain, internationalization, localization, and AI scenarios."],
@@ -296,14 +350,25 @@ function renderSections() {
   renderList(
     "#timeline",
     dictionary.timeline,
-    ([period, title, company, text]) => `
-      <article class="timeline-item">
-        <span class="timeline-period">${period}</span>
-        <h3>${title}</h3>
-        <p class="card-label">${company}</p>
-        <p>${text}</p>
-      </article>
-    `
+    ({ period, role, company, note, detail, logo }) => {
+      const noteText = currentLang === "en" ? `(${note})` : `（${note}）`;
+
+      return `
+        <article class="timeline-item">
+          <span class="timeline-period">${period}</span>
+          <span class="timeline-node" aria-hidden="true"></span>
+          <div class="timeline-company">
+            <span class="company-logo-wrap">
+              <img class="company-logo" src="${logo}" alt="${company} logo" loading="lazy" />
+            </span>
+            <div class="timeline-copy">
+              <h3><strong>${company}</strong><span>·</span>${role}<em>${noteText}</em></h3>
+              <p>${detail}</p>
+            </div>
+          </div>
+        </article>
+      `;
+    }
   );
 
   renderList(
