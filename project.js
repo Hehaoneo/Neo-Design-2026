@@ -67,7 +67,7 @@ function renderProject() {
     <section class="section project-gallery-section" id="gallery" aria-label="Project image gallery">
       <div class="section-heading">
         <p class="eyebrow">${projectLang === "en" ? "Design Project Summary" : "DESIGN PROJECT SUMMARY"}</p>
-        <h2>${projectLang === "en" ? "Design Project Introduction" : "设计项目介绍"}</h2>
+        <h2>${projectLang === "en" ? "Design Management & Leadership" : "设计管理与领导力"}</h2>
       </div>
       <div class="project-gallery">
         ${Array.from({ length: project.imageCount }, (_, index) => {

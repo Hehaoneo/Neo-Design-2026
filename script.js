@@ -28,7 +28,7 @@ const content = {
     teamLabel: "Team & Operating Model",
     teamTitle: "管理 12-20 人设计团队，主导团队从传统交付向 AI 驱动设计运营转型。",
     teamText:
-      "在美团最多带领20人设计团队，建立 AI 辅助设计工作流，单人设计产出效率提升2倍，人力成本节约30%；在阿里带领6人团队，团队成员年度晋升率达50%，留存率100%。",
+      "在美团带领20人设计团队，建立 AI 辅助设计工作流，单人设计产出效率提升2倍，人力成本节约30%；在阿里带领6人团队，团队成员年度晋升率达50%，留存率100%。",
     interviewLabel: "Professional Summary",
     interviewTitle: "经历总结",
     capabilityEyebrow: "Capability Matrix",
@@ -64,7 +64,7 @@ const content = {
       "同济大学设计艺术学硕士，具备设计理论、业务落地和全球协作背景。",
     ],
     capabilities: [
-      ["01", "设计管理", "设计体系构建、团队从0组建、人才培养与晋升体系、绩效管理、设计运营。"],
+      ["01", "设计管理与领导力", "设计体系构建、团队从0组建、人才培养与晋升体系、绩效管理、设计运营。"],
       ["02", "AI产品设计", "AI商家助手、AI点餐、AI评价专家，以及 AI 用户研究和 AI 辅助设计工作流。"],
       ["03", "B端SaaS设计", "餐饮SaaS、ERP、OMS、AEM、PC、POS、APP 等复杂业务系统设计。"],
       ["04", "C端小程序设计", "美团商家小程序、点餐、会员活动、积分商城和大客定制化体验。"],
@@ -189,7 +189,7 @@ const content = {
       "MA Design from Tongji University, with strong design theory, business execution, and global collaboration background.",
     ],
     capabilities: [
-      ["01", "Design Management", "Design system architecture, team building from scratch, talent development, performance management, and design operations."],
+      ["01", "Design Management & Leadership", "Design system architecture, team building from scratch, talent development, performance management, and design operations."],
       ["02", "AI Product Design", "AI merchant assistant, AI ordering, AI review expert, AI-driven user research, and AI-assisted design workflow."],
       ["03", "B2B SaaS Design", "Restaurant SaaS, ERP, OMS, AEM, PC, POS, APP, and complex enterprise product experiences."],
       ["04", "B2C Mini Programs", "Meituan merchant mini programs, ordering, member campaigns, points store, and key-account customization."],
@@ -326,7 +326,7 @@ function renderSections() {
     "#leadershipPillars",
     dictionary.pillars,
     ([title, text]) => `
-      <article class="leadership-card">
+      <article class="leadership-card clickable" onclick="location.href='project.html?id=design-management'">
         <p class="card-label">${title}</p>
         <p>${text}</p>
       </article>

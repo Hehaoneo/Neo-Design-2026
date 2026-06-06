@@ -253,8 +253,8 @@ const portfolioProjects = [
   },
   {
     id: "design-management",
-    title: "设计管理",
-    titleEn: "Design Management",
+    title: "设计管理与领导力",
+    titleEn: "Design Management and Leadership",
     type: "设计管理 / 团队运营",
     typeEn: "Design Management / Team Operations",
     platform: "团队管理 / 设计流程 / 评审机制 / 人才培养",
