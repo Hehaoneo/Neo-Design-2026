@@ -13,19 +13,19 @@ const portfolioProjects = [
     tags: ["AI商家运营", "餐饮商家", "AI智能体", "移动端"],
     tagsEn: ["AI Operations", "Restaurant Merchant", "AI Agent", "Mobile"],
     facts: [
-      ["20", "作品图片"],
+      ["18", "作品图片"],
       ["AI", "项目方向"],
       ["移动端", "平台范围"],
     ],
     factsEn: [
-      ["20", "Portfolio Images"],
+      ["18", "Portfolio Images"],
       ["AI", "Project Direction"],
       ["Mobile", "Platform Scope"],
     ],
     detailPoints: ["多平台运营", "会员运营", "门店管理", "经营分析"],
     detailPointsEn: ["Multi-platform operations", "Member operations", "Store management", "Business analytics"],
     imageDir: "assets/projects/ai-merchant-assistant",
-    imageCount: 20,
+    imageCount: 18,
   },
   {
     id: "mini-program-template-library",
