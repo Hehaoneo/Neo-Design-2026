@@ -59,9 +59,42 @@ function renderProject() {
           ${tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
         </div>
       </div>
+      ${
+        project.projectBackground || project.coreChallenge || project.resultMetrics || project.methodAssets
+          ? `
+      <div class="project-info-card">
+        ${project.projectBackground ? `
+        <div class="project-info-item">
+          <h3>${projectLang === "en" ? "Project Background" : "背景介绍"}</h3>
+          <p>${localize(project, "projectBackground")}</p>
+        </div>
+        ` : ""}
+        ${project.coreChallenge ? `
+        <div class="project-info-item">
+          <h3>${projectLang === "en" ? "Core Challenge" : "核心问题"}</h3>
+          <p>${localize(project, "coreChallenge")}</p>
+        </div>
+        ` : ""}
+        ${project.resultMetrics ? `
+        <div class="project-info-item">
+          <h3>${projectLang === "en" ? "Result Metrics" : "结果指标"}</h3>
+          <p>${localize(project, "resultMetrics")}</p>
+        </div>
+        ` : ""}
+        ${project.methodAssets ? `
+        <div class="project-info-item">
+          <h3>${projectLang === "en" ? "Method Assets" : "方法沉淀"}</h3>
+          <p>${localize(project, "methodAssets")}</p>
+        </div>
+        ` : ""}
+      </div>
+          `
+          : `
       <div class="project-cover-card">
         <img src="${imagePath(project, 0)}" alt="${title} cover" />
       </div>
+          `
+      }
     </section>
 
     <section class="section project-gallery-section" id="gallery" aria-label="Project image gallery">
