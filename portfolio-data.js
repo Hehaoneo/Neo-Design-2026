@@ -337,12 +337,12 @@ const portfolioProjects = [
     tags: ["设计管理", "团队运营", "设计评审", "人才培养"],
     tagsEn: ["Design Management", "Team Operations", "Design Review", "Talent Growth"],
     facts: [
-      ["12", "作品图片"],
+      ["16", "作品图片"],
       ["管理", "项目方向"],
       ["团队", "核心场景"],
     ],
     factsEn: [
-      ["12", "Portfolio Images"],
+      ["16", "Portfolio Images"],
       ["Management", "Project Direction"],
       ["Team", "Core Scenario"],
     ],
@@ -359,6 +359,6 @@ const portfolioProjects = [
     methodAssets: "建立设计评审机制、需求分级体系、组件治理流程、用户体验管理、AI设计变革和跨职能设计协同机制。",
     methodAssetsEn: "Established design review mechanism, requirement grading system, component governance process, user experience management, AI design transformation, and cross-functional design collaboration mechanism.",
     imageDir: "assets/projects/design-management",
-    imageCount: 12,
+    imageCount: 16,
   },
 ];
